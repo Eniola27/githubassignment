@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+</head>
+<body>
+<div><h1>Women in Tech</h1></div>
+<p> IF YOU WOULD LIKE TO KICKSTART YOUR CAREER IN TECH,KINDLY FILL IN YOUR DATA BELOW</p>
+<img src="https://images.pexels.com/photos/1181562/pexels-photo-1181562.jpeg?cs=srgb&dl=pexels-christina-morillo-1181562.jpg&fm=jpg&_gl=1*4wz12h*_ga*MTE5MTAxNjQ5My4xNjY3NDMwODgy*_ga_8JE65Q40S6*MTY2NzQzODQzNi4yLjEuMTY2NzQzODQ4NS4wLjAuMA.." height="300" width="600">
+     <!-- comment box -->
+     <br > <br >
+     <label for="name"> First Name:</label> 
+     <input type="text" name="Name" id="name" placeholder="Your name"><br> <br >
+     <label for="name">Last Name:</label>
+     <input type="text" name="Name" id="name" placeholder="Your name"><br> <br >
+
+     <label for="email">Email:</label>
+     <input type="email" name="Email address" placeholder="@gmail.com" id="email"> <br > <br >
+     <label for="Phone number">Phone number:</label>
+     <input type="number" name="phone number" placeholder="phone number" id="phone number"><br > <br >
+     <label for="Age">Date of Birth</label>
+     <input type="date" name="Age" placeholder="Date of birth" id="Age" min="18" max="35"><br > <br >
+     <label for="Nationality">Nationality: </label>
+     <input type="text" name="Nationality" placeholder="Nationality" id="Nationality"><br > <br >
+     <label for="Gender">Gender:</label>
+     <select name="Gender" id="Gender"><br > <br >
+        <option value="female">Female</option><br >
+        <option value="male">male</option><br >
+        <option value="They">Them</option></select><br >
+
+        <p>Preferred training time:</p>
+        <label>Morning<input type="radio" name="training time" id="training session" value="morning"></label>  
+        <label>Afternoon<input type="radio" name="training time" id="training session" value="Afternoon"></label>
+        <label>Night<input type="radio" name="trainig time" id="training session" value="night"></label>
+        <b><p>Upload your Cv</p> </b>
+        <input type="file" name="cv" size="14kb"> <br > <br >
+        <label for="comment">Write us a message,we would love to hear from you</label></p>
+        <textarea rows="5" cols="50" name="comment" id="comment" placeholder="type here"></textarea><br>
+        <label>If you would like to get a job in tech</label><br ><br>
+        <input type="checkbox" id="Newsletter" name="Newsletter" value="Newslettersignup">
+        <label for="Newsletter">Join our Newsletter</label><br><br >
+        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-ig  fcf-btn-block">send</button></div><br >
+
+
+     <form></form>
+    
+     </body>
+</html>
